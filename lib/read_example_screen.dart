@@ -59,7 +59,7 @@ class _ReadExampleScreenState extends State<ReadExampleScreen> {
   @override
   Widget build(BuildContext context) {
     _startScanning(context);
-    Future.delayed(Duration(seconds: 5), () {_settingModalBottomSheet(context);});
+    // Future.delayed(Duration(seconds: 5), () {_settingModalBottomSheet(context);});
     return Scaffold(
         appBar: AppBar(
           leading: IconButton(
