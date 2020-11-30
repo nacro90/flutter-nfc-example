@@ -12,6 +12,7 @@ class ExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text("NFC in Flutter examples"),
@@ -137,7 +138,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.red,
       ),
       home: Scaffold(
         appBar: AppBar(
